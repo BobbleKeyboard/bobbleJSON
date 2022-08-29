@@ -1,0 +1,14 @@
+{
+    "pi": 3.141,
+    "happy": "me",
+    "greeting": {
+                    "English": "hi",
+                    "Hindi": "Namaste",
+                    "Joey": {
+                                "person1" : "apple",
+                                "person2" : "banana"
+                            },
+                    "Korean" : "annyeonghaseyo"
+                },
+    "color" : "red"
+}

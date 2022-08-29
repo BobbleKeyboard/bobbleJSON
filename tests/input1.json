@@ -1,0 +1,10 @@
+{
+    "pi": 3.141,
+    "happy": "me",
+    "greeting": {
+                    "English": "hi",
+                    "Hindi": "Namaste",
+                    "Joey": "How_you_doin"
+                },
+    "color" : "red"
+}

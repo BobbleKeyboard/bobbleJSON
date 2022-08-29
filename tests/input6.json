@@ -1,0 +1,30 @@
+{
+    "pi": 3.141,
+    "happy": "me",
+    "arr" : [1, 2.34, "ohh", 45],
+    "greetings": {
+                    "English": "hi",
+                    "Hindi": "Namaste",
+                    "Joey": {
+                                "person1" : "apple",
+                                "person2" : "banana",
+                                "person3" : {
+                                                "first_choice" : "grape",
+                                                "arr2" : ["hola", 2, "amigos", 45.33, "yo"]
+                                            },
+                                "person4" : "none"
+                            },
+                    "Korean" : "annyeonghaseyo"
+                },
+    "color" : "red",
+    "vegetables" : {
+                        "cucumber" : "good",
+                        "potato" : "bad",
+                        "onion" : {
+                                        "white" : 23,
+                                        "pink" : 10
+                                    }
+                    },
+    "planet" : "earth",
+    "feel" : ["happy", "sad", 5.3, "twisted"]
+}
