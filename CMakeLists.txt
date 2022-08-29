@@ -15,7 +15,7 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-set(CMAKE_CXX_STANDARD 17)            # Enable c++14 standard
+set(CMAKE_CXX_STANDARD 11)            
 set(CMAKE_CXX_STANDARD_REQUIRED True) 
 set(CMAKE_BUILD_TYPE Debug)
 
@@ -24,7 +24,7 @@ include_directories(include)
 #target_link_libraries(Json_Library include)
 
 # Add main.cpp file of project root directory as source file
-set(SOURCE_FILES src/main.cpp src/json.cpp src/tests.cpp)
+
 
 # Add executable target with source files listed in SOURCE_FILES variable
 add_executable(json_lib src/main.cpp src/json.cpp)

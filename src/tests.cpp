@@ -9,7 +9,7 @@ using namespace std;
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_case_demo/input0.json", std::ios::in);
+        file.open("../tests/input0.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
         ASSERT_TRUE(jsonObj.isValidJSON());
@@ -19,7 +19,7 @@ using namespace std;
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_case_demo/input1.json", std::ios::in);
+        file.open("../tests/input1.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
         ASSERT_TRUE(jsonObj.isValidJSON());
@@ -29,17 +29,17 @@ using namespace std;
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input2.json", std::ios::in);
+        file.open("../tests/input2.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-        ASSERT_TRUE(jsonObj.isValidJSON());
+        ASSERT_FALSE(jsonObj.isValidJSON());
     }
 
     TEST(JSON_test, input3)
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input3.json", std::ios::in);
+        file.open("../tests/input3.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
         ASSERT_TRUE(jsonObj.isValidJSON());
@@ -49,17 +49,17 @@ using namespace std;
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input4.json", std::ios::in);
+        file.open("../tests/input4.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-    ASSERT_TRUE(jsonObj.isValidJSON());
+        ASSERT_FALSE(jsonObj.isValidJSON());
     }
 
     TEST(JSON_test, input5)
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input5.json", std::ios::in);
+        file.open("../tests/input5.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
         ASSERT_TRUE(jsonObj.isValidJSON());
@@ -69,7 +69,7 @@ using namespace std;
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input6.json", std::ios::in);
+        file.open("../tests/input6.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
         ASSERT_TRUE(jsonObj.isValidJSON());
@@ -79,17 +79,17 @@ using namespace std;
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input7.json", std::ios::in);
+        file.open("../tests/input7.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-        ASSERT_FALSE(jsonObj.isValidJSON());
+        ASSERT_TRUE(jsonObj.isValidJSON());
     }
 
     TEST(JSON_test, input8)
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input8.json", std::ios::in);
+        file.open("../tests/input8.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
         ASSERT_TRUE(jsonObj.isValidJSON());
@@ -99,60 +99,60 @@ using namespace std;
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input9.json", std::ios::in);
+        file.open("../tests/input9.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-        ASSERT_FALSE(jsonObj.isValidJSON());
+        ASSERT_TRUE(jsonObj.isValidJSON());
     }
 
     TEST(JSON_test, input10)
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input10.json", std::ios::in);
+        file.open("../tests/input10.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-        ASSERT_FALSE(jsonObj.isValidJSON());
+        ASSERT_TRUE(jsonObj.isValidJSON());
     }
 
     TEST(JSON_test, input11)
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input11.json", std::ios::in);
+        file.open("../tests/input11.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-        ASSERT_FALSE(jsonObj.isValidJSON());
+        ASSERT_TRUE(jsonObj.isValidJSON());
     }
 
     TEST(JSON_test, input12)
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input12.json", std::ios::in);
+        file.open("../tests/input12.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-        ASSERT_FALSE(jsonObj.isValidJSON());
+        ASSERT_TRUE(jsonObj.isValidJSON());
     }
 
     TEST(JSON_test, input13)
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input13.json", std::ios::in);
+        file.open("../tests/input13.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-        ASSERT_FALSE(jsonObj.isValidJSON());
+        ASSERT_TRUE(jsonObj.isValidJSON());
     }
 
     TEST(JSON_test, input14)
     {
         json::JsonToken jsonObj;
         std::ifstream file;
-        file.open("../test_cases/input14.json", std::ios::in);
+        file.open("../tests/input14.json", std::ios::in);
         jsonObj.read(file);
         jsonObj.parseJSON();
-        ASSERT_FALSE(jsonObj.isValidJSON());
+        ASSERT_TRUE(jsonObj.isValidJSON());
     }
 
     int main(int argc, char** argv)

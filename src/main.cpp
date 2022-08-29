@@ -7,7 +7,7 @@ int main(){
     
 
     json::JsonToken obj;
-    std::ifstream myfile("../files/test10.json");
+    std::ifstream myfile("../tests/input11.json");
     obj.read(myfile);
     
     //obj.json_string = in;               //stores input string in json_string
