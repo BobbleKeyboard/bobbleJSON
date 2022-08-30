@@ -1,7 +1,7 @@
 # bobbleJSON
 a C++ JSON library
 
-# How to build the project
+# How to build this project
 mkdir build && cd build
 cmake ..
 make
