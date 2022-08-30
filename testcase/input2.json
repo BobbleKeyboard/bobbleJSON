@@ -1,0 +1,11 @@
+{
+	"xyz" : 123 ,
+	"abc" : "def",
+	"bool" : false,
+	"arr" : [1 , 2 , 3 , 4, info : {
+				"name": "Hritesh",
+				"age": 20
+			}
+	],
+	"def" : "xyz"
+}
