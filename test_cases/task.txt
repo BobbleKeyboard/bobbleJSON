@@ -1,0 +1,102 @@
+-> json class
+methods :
+   ->read() this should be overloaded
+     1.void read(std::string)                            #DONE
+     2.void read(std::ifstream)                          #DONE
+     3.---
+
+   ->parse()                                             #DONE
+     (tokenize & validateJSON & put it in the map)
+
+   ->method overloading
+     1.operator << ()  for json class                    #DONE
+     2.sub script                                        #DONE
+         operator [] ()
+
+
+
+
+
+    usage:#ALL STEPS DONE
+
+    step 1:
+    //create a json object  jsonObj
+       json jsonObj;
+
+
+    (optional step)
+    //if the json is in the file then we should convert ifstream obj
+
+
+    step 2:
+    // invoke the read function on jsonObj & parse the string or the ifstream obj
+        jsonObj.read()
+
+
+    step 3:
+    //parse the jsonObj
+        jsonObj.parse()
+
+
+//today task
+
+1. handle the map for value type -> (array) #DONE
+
+2. while traveling throughout map each by each key-value it is better find out the better approach ! #DONE
+
+3.Exception Handling should done for sub script operator overloading #DONE
+
+
+state_list1{
+opening_brace,
+
+}
+
+
+state_list2{
+opening_square,
+//four possibles
+
+}
+
+//map structure
+std::unordered_map<std::string,JSON_Value>
+std::unordered_map<int,JSON_Value>
+
+
+class JSON_Value{
+    //variables
+    std::string value_type;
+    std::string string_value;
+
+
+    //methods
+    getType()  ->returns string
+    toString() ->returns string
+    getObject() ->returns actual_obj
+
+    JSON_Value(std::string value,std::string type){
+        string_value=value;
+        value_type=type;
+    }
+
+}
+
+
+
+
+task
+-> how to iterate in
+
+
+
+
+
+
+
+
+
+
+
+
+

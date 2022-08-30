@@ -1,0 +1,6 @@
+{
+	"xyz" : 123 ,
+	"abc" : "def",
+	"bool" : false,
+	"def" : [1,2,3,45,6,"Surya"]
+}

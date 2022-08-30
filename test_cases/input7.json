@@ -1,0 +1,18 @@
+{
+  "First_Name" : "Surya",
+  "Last_Name" : "Potnuru",
+  "Groups" : ["CSE","ECE","MECH","CIVIL","EEE"],
+  "Age_Groups" : [18,19,20,21,33],
+  "Age" : 18.0,
+  "Marks" : 50,
+  "D" : [1,2],
+  "Mobile_Number" : null,
+  "Male" : true,
+  "Hello" : false,
+  "Address" : {
+    "City": "Vizag",
+    "Pincode": 532459,
+    "Street": "Girijala Street"
+  }
+
+}

@@ -1,0 +1,17 @@
+[
+  jsonObj,
+  array,
+  integer
+]
+
+validateJSON_structure()
+validate_integer()
+validate_array()
+
+/*
+
+
+*/
+
+
+->loop invariant?
